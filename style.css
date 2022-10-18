@@ -26,7 +26,7 @@ figcaption{
   background-color: aliceblue ; 
 }
 
-h2{
+#head-info{
 	text-align: center;
 }
 
@@ -41,4 +41,24 @@ a{
 }
 a:hover{
 	color: orange;  /*Effect on the link*/
+}
+
+#request-email{
+	position: relative;
+	left: 480px;
+	margin: 30px 8px;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+#submit-button{
+	background-color: goldenrod;
+	position: relative;
+	left: 130px;
+	top: 20px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+#submit-button:hover{
+	color:aqua;
 }
